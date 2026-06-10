@@ -16,7 +16,9 @@ print("Hello,World")
 # print(a<b)
 
 
-s="tanushree"
-s2="tanu"
-print(("a"  not in s))
+# s="tanushree"
+# s2="tanu"
+# print(("a"  not in s))
+
+
 
