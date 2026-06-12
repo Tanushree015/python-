@@ -134,7 +134,7 @@ print(profile["city"])'''
 
 
 
-items = ["Laptop", "Mouse", "Keyboard"]
+'''items = ["Laptop", "Mouse", "Keyboard"]
 
 prices = (50000, 1000, 1500)
 
@@ -151,4 +151,23 @@ print(len(brands))
 
 print(customer["name"])
 customer["membership"]="gold"
-print(customer)
+print(customer)'''
+
+
+student = {
+    "name": "Tanushree",
+    "subjects": ["Python", "Java", "DBMS"],
+    "marks": (85, 90, 88),
+    "skills": {"Python", "Communication", "Java"}
+}
+
+print(student["name"])
+print(student["subjects"][-1])
+print(max(student["marks"]))
+print(len(student["skills"]))
+student["subjects"].append("Data Science")
+
+print(student)
+student['skills'].add("Teamwork ")
+print(student)  
+
