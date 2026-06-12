@@ -49,10 +49,62 @@ print(len(movies))'''
 
 
 
-products=("laptop","mouse","keyboard","mouse")
+'''products=("laptop","mouse","keyboard","mouse")
 print(products)
 print(len(products))
 print(set(products) )
 print(products)
 
-print(len(set(products)))
+print(len(set(products)))'''
+
+# dictionaries
+
+'''student={
+    "name":"Tanushree",
+    "age":22,
+    "course":"mca"
+}
+print(student)
+print(student["name"])
+print(student["age"])
+student["city"]="bangalore"
+print(student)
+print(student.keys())
+print(student.values())
+print(student.items()   )
+
+
+menu={
+    "pizza":250,
+    "burger":150,
+    "pasta":200
+
+}
+print(menu)
+print(menu["pizza"])
+print(menu["burger"])
+menu["sandwich"]=150
+print(menu)
+menu["pasta"]=250
+print(menu)
+print(menu.items())'''
+
+
+account={
+    "name":"tanushree",
+    "balance":1000,
+    "account_type":"savings"
+
+}
+
+print(account)
+print(account["name"])
+print(account["balance"]    )
+account["city"]="hubballi"
+print(account)
+account['balance']=70000
+print(account)
+print(account.keys())
+print(account.values())
+print(account.items())
+print(len(account))
