@@ -90,7 +90,7 @@ print(menu)
 print(menu.items())'''
 
 
-account={
+'''account={
     "name":"tanushree",
     "balance":1000,
     "account_type":"savings"
@@ -107,4 +107,48 @@ print(account)
 print(account.keys())
 print(account.values())
 print(account.items())
-print(len(account))
+print(len(account))'''
+
+# mixed 
+
+'''name = "Tanushree"
+
+subjects = ["Python", "Java", "DBMS"]
+
+marks = (85, 90, 88)
+
+skills = {"Communication", "Python", "Java"}
+
+profile = {
+    "age": 22,
+    "city": "Hubballi"
+}
+
+print("Name:", name)
+print(subjects[0])
+
+print(max(marks))
+print(len(skills))  
+print(profile["city"])'''
+
+
+
+
+items = ["Laptop", "Mouse", "Keyboard"]
+
+prices = (50000, 1000, 1500)
+
+brands = {"Dell", "HP", "Lenovo"}
+
+customer = {
+    "name": "Rahul",
+    "city": "Bangalore"
+}
+
+print(items[-1])
+print(max(prices))
+print(len(brands))
+
+print(customer["name"])
+customer["membership"]="gold"
+print(customer)
