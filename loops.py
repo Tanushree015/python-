@@ -56,7 +56,25 @@ if username=="admin":
 else:
     print("login failed")'''
 
+'''number=int(input("enter the number: "))
+if number%2==0:
+    print("even number")
 
+else:
+    print("odd number")'''
+
+
+
+ticket =int(input("enter the ticket: "))
+if ticket <=5:
+    print("ticket price is free")
+elif ticket>=5 and ticket<=17:
+    print("ticket price is 100")
+
+elif ticket>=18:
+    print("ticket price is 200")
+else:
+    print("invalid ticket")
 
 
 
