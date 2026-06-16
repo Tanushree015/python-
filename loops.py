@@ -65,7 +65,7 @@ else:
 
 
 
-ticket =int(input("enter the ticket: "))
+'''ticket =int(input("enter the ticket: "))
 if ticket <=5:
     print("ticket price is free")
 elif ticket>=5 and ticket<=17:
@@ -74,7 +74,16 @@ elif ticket>=5 and ticket<=17:
 elif ticket>=18:
     print("ticket price is 200")
 else:
-    print("invalid ticket")
+    print("invalid ticket")'''
+
+'''password=input("enter the password: ")
+if password=="python123":
+    print("acess granted")
+else:
+    print("Acess denied")
+'''
+
+
 
 
 
