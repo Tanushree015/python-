@@ -127,6 +127,19 @@ while num <=10:
         print(num)
         num=num+2
 
+num=5
+while num<=30:
+    print(num)
+    num=num+5
+'''
+
+num=1
+while num<=10 :
+
+    print(num)
+    num=num+2
+
+
 
         
 
