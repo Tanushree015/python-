@@ -101,7 +101,7 @@ if num1>num2:
 elif num1<num2:
     print("second number is greater")
 else:
-    print("both numbers are equal")'''
+    print("both numbers are equal")
 
 
 # while loop
@@ -112,6 +112,23 @@ while num<=10:
     print(num)
     num=num+1
 
+
+
+
+num = 10
+
+while num>=1:
+    print(num)
+    num=num-1
+
+num =0
+while num <=10:
+    
+        print(num)
+        num=num+2
+
+
+        
 
 
 
