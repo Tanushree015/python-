@@ -93,7 +93,7 @@ else:
     print("zero")'''
 
 
-num1=int(input("enter first number: "))
+'''num1=int(input("enter first number: "))
 num2=int(input("enter second number:"))
 
 if num1>num2:
@@ -101,7 +101,17 @@ if num1>num2:
 elif num1<num2:
     print("second number is greater")
 else:
-    print("both numbers are equal")
+    print("both numbers are equal")'''
+
+
+# while loop
+
+num=1
+
+while num<=10:
+    print(num)
+    num=num+1
+
 
 
 
