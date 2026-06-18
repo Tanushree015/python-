@@ -92,7 +92,17 @@ elif number<0:
 else:
     print("zero")'''
 
-    
+
+num1=int(input("enter first number: "))
+num2=int(input("enter second number:"))
+
+if num1>num2:
+    print("first number is greater")
+elif num1<num2:
+    print("second number is greater")
+else:
+    print("both numbers are equal")
+
 
 
 
