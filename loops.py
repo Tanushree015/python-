@@ -168,3 +168,10 @@ for students in range (1,6):
 for orders in range(1,8):
     print("processing order",orders)'''
 
+marks=[23,45,67,89,90,34,56,78,12,34]
+for i in marks:
+    if i>=50:
+        print(i,"pass")
+    else:
+        print(i,"fail")
+        
