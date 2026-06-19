@@ -131,7 +131,7 @@ num=5
 while num<=30:
     print(num)
     num=num+5
-'''
+
 
 num=1
 while num<=10 :
@@ -141,7 +141,11 @@ while num<=10 :
 
 
 
-        
+for i in range(3, 31, 3):
+    print(i)'''
+
+for i in range(1, 6):
+    print(i * i)
 
 
 
