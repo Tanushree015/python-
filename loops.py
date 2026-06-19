@@ -142,14 +142,29 @@ while num<=10 :
 
 
 for i in range(3, 31, 3):
-    print(i)'''
+    print(i)
 
 for i in range(1, 6):
     print(i * i)
 
 
+marks=int(input("enter the attendence: "))
+if marks>=75:
+    print("allowed for the exam")
+else:
+    print("not allowed for the exam")
 
 
 
+for i in range(1,11):
+    print(i)
 
+
+for students in range (1,6):
+    print("student",students)
+
+
+
+for orders in range(1,8):
+    print("processing order",orders)'''
 
