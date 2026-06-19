@@ -166,7 +166,7 @@ for students in range (1,6):
 
 
 for orders in range(1,8):
-    print("processing order",orders)'''
+    print("processing order",orders)
 
 marks=[23,45,67,89,90,34,56,78,12,34]
 for i in marks:
@@ -175,3 +175,27 @@ for i in marks:
     else:
         print(i,"fail")
         
+'''
+
+numbers = [12, 7, 8, 15, 20, 3, 10]
+for num in numbers:
+    if num % 2 == 0:
+        print(num, "is even")
+    else:
+        print(num, "is odd")
+
+numbers = [12, 7, 8, 15, 20, 3, 10]
+for num in numbers:
+    if num % 2 == 0:
+        print(num, "is even")
+        
+numbers = [12, 7, 8, 15, 20, 3, 10]
+
+count = 0
+
+for num in numbers:
+    if num % 2 == 0:
+        print(num, "is even")
+        count = count + 1
+
+print("Total even numbers:", count)
