@@ -175,7 +175,7 @@ for i in marks:
     else:
         print(i,"fail")
         
-'''
+
 
 numbers = [12, 7, 8, 15, 20, 3, 10]
 for num in numbers:
@@ -199,3 +199,17 @@ for num in numbers:
         count = count + 1
 
 print("Total even numbers:", count)
+
+
+sum=0
+for i in range(1,11):
+    sum=sum+i
+    print(sum)
+
+numbers = [10, 20, 30, 40, 50]
+total = 0
+for num in numbers:
+   total=total+num
+   print(total)
+   
+    
