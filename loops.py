@@ -211,5 +211,43 @@ total = 0
 for num in numbers:
    total=total+num
    print(total)
+
+
+numbers = [12, 45, 67, 89, 34]
+largest=numbers[0]
+for num in numbers:
+   if  num>=largest:
+     largest=num
+print("largest number is ",largesest)
+
+
+
+
+    
+word = "programming"
+
+count = 0
+
+for ch in word:
+    if ch in "aeiou":
+        count=count+1
+    
+    # increase count
+
+print(count)'''
+
+
+numbers = [-2, 5, -1, 8, 0, 10]
+count=0
+
+
+for num in numbers:
+    if num>=0:
+        count=count+1
+        
+print(count)
+
+
+
    
     
